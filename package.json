@@ -1,0 +1,36 @@
+{
+  "name": "task2-mvc",
+  "version": "1.0.0",
+  "description": "Complete Boiler plate functionality",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaini Shah",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-joi-validation": "^5.0.0",
+    "express-useragent": "^1.0.15",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "logger": "0.0.1",
+    "mongoose": "^5.12.9",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.6.0",
+    "nodemon": "^2.0.7",
+    "rand-token": "^1.0.1",
+    "twilio": "^3.62.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "dotenv": "^9.0.1"
+  }
+}
